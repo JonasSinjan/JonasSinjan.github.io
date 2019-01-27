@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 
-.text-box{
+.text{
     width: 350px;
     border-radius: 15px;
     position: absolute;
@@ -17,7 +17,7 @@ body {
     opacity: 0.85;
 }
 
-.text-box h1{
+.text h1{
     text-align: center;
     font-size: 30px;
 }
