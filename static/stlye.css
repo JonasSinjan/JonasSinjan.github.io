@@ -6,7 +6,7 @@ body{
     background-size: cover;
     opacity: 0.95;
 }
-.textbox{
+.text-box{
     width: 300px;
     top: 40%;
     left: 50%;
@@ -15,7 +15,7 @@ body{
     opacity: 0.8;
 }
 
-.textbox h1{
+.text-box h1{
     text-align: center;
     font-size: 30px;
 }
