@@ -68,7 +68,7 @@ body {
     color: white;
     font-size: 15px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 
 }
 .bio-text {
@@ -76,10 +76,14 @@ body {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10px;
+    padding: 5px;
     color: white;
 }
 .Linkedin {
+    padding: 10px;
+    text-align: center;
+}
+.copyright {
     padding: 15px;
     text-align: center;
 }
