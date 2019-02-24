@@ -40,6 +40,7 @@ ul a:hover {
     /*height: 350px;*/
     border-radius: 15px;
     position: absolute;
+
     top: 10%;
     left: 27%;
     /*transform: translate(-50%, -95%);*/
@@ -52,6 +53,8 @@ ul a:hover {
     /*height: 350px;*/
     border-radius: 2px;
     position: absolute;
+    margin-top: 35px;
+    margin-bottom: 5%;
     top: 10%;
     left: 20%;
     /*transform: translate(-50%, -35%);*/
@@ -143,9 +146,19 @@ ul a:hover {
     padding: 5px;
     text-align: center;
 }
-.column {
+.column1 {
   float: left;
-  width: 33.33%;
+  width: 33%;
+}
+.column2 {
+  float: left;
+  width: 33%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.column3 {
+  float: left;
+  width: 33%;
 }
 
 /* Clear floats after the columns */
