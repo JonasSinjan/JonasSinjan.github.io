@@ -98,18 +98,17 @@ ul a:hover {
     opacity: 0.8;
 }
 .text2{
-    width: 60%;
+    width: 40%;
     /*height: 350px;*/
     border-radius: 2px;
-    position: absolute;
-    margin-top: 35px;
-    margin-bottom: 5%;
-    top: 10%;
-    left: 20%;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
     /*transform: translate(-50%, -35%);*/
     background-color: black;
     opacity: 0.85;
     color: white;
+    overflow: auto;
 }
 
 .text3{
@@ -118,7 +117,6 @@ ul a:hover {
     border-radius: 2px;
     margin-top: 10%;
     margin-bottom: 15%;
-
     margin-left: auto;
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
@@ -126,6 +124,7 @@ ul a:hover {
     opacity: 0.85;
     color: white;
     overflow: auto;
+
 }
 
 .text h1{
@@ -255,14 +254,32 @@ ul a:hover {
   clear: both;
 }
 
-img {
+.pp {
     float: left;
     width: 230px;
     height: 225px;
     padding: 0px 10px;
     margin-bottom: 15px;
 }
+.map {
+    min-height: 40%;
+    min-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 0px 10px;
+}
 
-map {
-
+iframe {
+    min-height: 40%;
+    min-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 50%;
+    text-align: center;
+    margin-bottom: 15px;
 }
