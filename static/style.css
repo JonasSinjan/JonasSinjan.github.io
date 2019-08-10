@@ -110,6 +110,19 @@ ul a:hover {
     color: white;
     overflow: auto;
 }
+.text8{
+    width: 40%;
+    /*height: 350px;*/
+    border-radius: 2px;
+    /* margin-top: 7%; */
+    margin-left: auto;
+    margin-right: auto;
+    /*transform: translate(-50%, -35%);*/
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+    overflow: auto;
+}
 .coursetext{
     width: 65%;
     /*height: 350px;*/
@@ -165,6 +178,18 @@ ul a:hover {
     color: white;
 }
 .text2 h1{
+    text-align: center;
+    /*margin-left: 50px;*/
+    font-size: 30px;
+    opacity: 1;
+    margin-bottom: 20px;
+    border-bottom: 5px solid white;
+    /*display: table-cell;*/
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+}
+.text8 h1{
     text-align: center;
     /*margin-left: 50px;*/
     font-size: 30px;
@@ -246,6 +271,20 @@ ul a:hover {
     margin-right: 20px;
     padding: 5px;
     color: white;
+    overflow: auto;
+}
+
+.bio-text2 h1{
+    text-align: center;
+    /*margin-left: 50px;*/
+    font-size: 25px;
+    opacity: 1;
+    margin-bottom: 20px;
+    /* border-bottom: 5px solid white; */
+    /*display: table-cell;*/
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
 }
 
 .courses {
@@ -279,6 +318,15 @@ ul a:hover {
 .column3 {
   float: right;
   width: 33%;
+}
+
+.column4 {
+    float: left;
+    width: 48%;
+}
+.column5 {
+    float: right;
+    width: 48%;
 }
 
 /* Clear floats after the columns */
