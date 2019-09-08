@@ -47,6 +47,7 @@ ul a:hover {
     top: 0;
     width: 100%;
     padding: 10px;
+    z-index: 5;
 
 }
 
@@ -122,6 +123,7 @@ ul a:hover {
     opacity: 0.85;
     color: white;
     overflow: auto;
+    z-index: -1;
 }
 
 .coursetext h1{
