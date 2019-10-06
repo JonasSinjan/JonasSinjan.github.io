@@ -108,7 +108,7 @@ ul a:hover {
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
     background-color: black;
-    opacity: 0.85;
+    opacity: 1;
     color: white;
     overflow: auto;
 }
@@ -121,7 +121,7 @@ ul a:hover {
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
     background-color: black;
-    opacity: 0.85;
+    opacity: 1;
     color: white;
     overflow: auto;
 }
@@ -132,7 +132,7 @@ ul a:hover {
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    opacity: 0.85;
+    opacity: 1;
     color: white;
     overflow: auto;
     z-index: -1;
@@ -158,7 +158,7 @@ ul a:hover {
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
     background-color: black;
-    opacity: 0.85;
+    opacity: 1;
     color: white;
     overflow: auto;
 
@@ -282,6 +282,9 @@ ul a:hover {
     margin-right: 20px;
     padding: 5px;
     color: white;
+    -webkit-column-rule: 4px double #ddd; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px double #ddd; /* Firefox */
+    column-rule: 4px double #ddd;
 }
 
 .Linkedin {
@@ -294,18 +297,29 @@ ul a:hover {
     text-align: center;
 }
 .column1 {
-  float: left;
-  width: 33%;
+    float: left;
+    width: 24.5%;
+    -webkit-column-rule: 4px double #ff00ff; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px double #ff00ff; /* Firefox */
+    column-rule: 4px double #ff00ff;
+    /* border-left: 2px solid white;
+    border-right: 2px solid white; */
 }
 .column2 {
     float: left;
-    width: 33%;
+    width: 24%;
     border-left: 2px solid white;
     border-right: 2px solid white;
 }
 .column3 {
+    float: right;
+    width: 24%;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.column4 {
   float: right;
-  width: 33%;
+  width: 24%;
 }
 
 .column4 {
@@ -315,6 +329,12 @@ ul a:hover {
 .column5 {
     float: right;
     width: 48%;
+}
+
+.row {
+    -webkit-column-rule: 4px double #ddd; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px double #ddd; /* Firefox */
+    column-rule: 4px double #ddd;
 }
 
 /* Clear floats after the columns */
@@ -415,5 +435,23 @@ iframe {
     margin-bottom: 20px;
     /* margin-top: 10px; */
     padding: 10px;
+    color: white;
+}
+table {
+    table-layout: fixed ;
+    width: 100% ;
+}
+table, th, td {
+    border: 1px solid white;
+    color: white;
+  }
+
+th, td {
+padding: 10px;
+text-align: center;
+}
+tr:hover {background-color: #f5f5f548;}
+th {
+    background-color: #f5f5f548;
     color: white;
 }
