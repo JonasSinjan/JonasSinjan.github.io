@@ -5,7 +5,7 @@ body {
     /*background: url("pad3.jpg");*/
     /*background-color: #cccccc;*/
     /*background-size: cover;*/
-    background: url("pad3.jpg") no-repeat center center fixed;
+    background: url("solar_system_minimal.png") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -102,8 +102,8 @@ ul a:hover {
 .text2{
     width: 40%;
     /*height: 350px;*/
-    border-radius: 2px;
-    margin-top: 7%;
+    border-radius: 10px;
+    margin-top: 4.5%;
     margin-left: auto;
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
@@ -127,7 +127,7 @@ ul a:hover {
 }
 .coursetext{
     width: 65%;
-    border-radius: 2px;
+    border-radius: 10px;
     margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -149,10 +149,10 @@ ul a:hover {
     color: white;
 }
 .text3{
-    width: 40%;
+    width: 30%;
     /*height: 350px;*/
-    border-radius: 2px;
-    margin-top: 10%;
+    border-radius: 10px;
+    margin-top: 4.5%;
     margin-bottom: 15%;
     margin-left: auto;
     margin-right: auto;
@@ -231,7 +231,7 @@ ul a:hover {
 
 }
 .first-text4 {
-    text-align: left;
+    text-align: center;
     margin-top: 0px;
     color: white;
     font-size: 20px;
