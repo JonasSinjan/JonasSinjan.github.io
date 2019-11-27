@@ -403,9 +403,14 @@ iframe {
 .header img {
     width: 7%;
     padding: 0px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     vertical-align: middle
 }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 .header h1 {
     /* position: relative; */
@@ -425,7 +430,7 @@ iframe {
 }
 .header-2 img {
     width: 15%;
-    vertical-align: middle
+    vertical-align: bottom
 }
 
 .header-2 h1 {
