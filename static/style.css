@@ -12,7 +12,8 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 50px;
     padding: 10px;
     overflow: hidden;
     background-color: black;
@@ -21,6 +22,7 @@ ul {
     width: 100%; /* Full width */
     z-index: 5;
 }
+
 
 li {
   display: inline;
@@ -49,6 +51,7 @@ ul a:hover {
     width: 100%;
     padding: 10px;
     z-index: 5;
+    
 
 }
 
@@ -76,9 +79,10 @@ ul a:hover {
 
 .text2{
     width: 40%;
+    min-width: 370px;
     /*height: 350px;*/
     border-radius: 10px;
-    margin-top: 4.5%;
+    margin-top: 50%;
     margin-left: auto;
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
@@ -89,6 +93,7 @@ ul a:hover {
 }
 .text8{
     width: 40%;
+    min-width: 370px;
     /*height: 350px;*/
     border-radius: 10px;
     margin-top: 2%;
@@ -102,8 +107,9 @@ ul a:hover {
 }
 .coursetext{
     width: 65%;
+    min-width: 370px;
     border-radius: 10px;
-    margin-top: 0%;
+    margin-top: 25%;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -111,6 +117,11 @@ ul a:hover {
     color: white;
     overflow: auto;
     z-index: -1;
+}
+@media screen and (min-width: 1200px) {
+.coursetext{
+    margin-top: 0%;
+}
 }
 
 .coursetext h1{
@@ -125,9 +136,10 @@ ul a:hover {
 }
 .text3{
     width: 30%;
+    min-width: 350px;
     /*height: 350px;*/
     border-radius: 10px;
-    margin-top: 4.5%;
+    margin-top: 50%;
     margin-bottom: 15%;
     margin-left: auto;
     margin-right: auto;
@@ -137,6 +149,26 @@ ul a:hover {
     color: white;
     overflow: auto;
 
+}
+@media screen and (min-width: 1200px) {
+.text3{
+    margin-top: 110px;
+}
+}
+@media screen and (min-width: 1200px) {
+.text2{
+    margin-top: 100px;
+}
+}
+.text3 h1{
+    text-align: center;
+    font-size: 30px;
+    opacity: 1;
+    margin-bottom: 20px;
+    border-bottom: 5px solid white;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
 }
 
 .text2 h1{
@@ -159,16 +191,7 @@ ul a:hover {
     padding: 15px;
     color: white;
 }
-.text3 h1{
-    text-align: center;
-    font-size: 30px;
-    opacity: 1;
-    margin-bottom: 20px;
-    border-bottom: 5px solid white;
-    margin-top: 10px;
-    padding: 15px;
-    color: white;
-}
+
 
 .first-text3 {
     float: left;
@@ -192,11 +215,17 @@ ul a:hover {
 .bio-text2 {
     font-size: 18px;
     float: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
     color: white;
     overflow: auto;
+}
+@media screen and (min-width: 1200px) {
+.bio-text2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 }
 
 .bio-text2 h1{
@@ -232,17 +261,32 @@ ul a:hover {
 }
 
 .column4 {
-  float: right;
-  width: 24%;
-}
-
-.column4 {
     float: left;
     width: 48%;
 }
+
+.column4 h1{
+    font-size: 5vw;
+  }
+@media screen and (min-width: 1200px) {
+.column4 h1 {
+    font-size: 30px;
+}
+}
+
+
 .column5 {
     float: right;
     width: 48%;
+}
+
+.column5 h1{
+    font-size: 5vw;
+  }
+@media screen and (min-width: 1200px) {
+.column5 h1 {
+    font-size: 30px;
+}
 }
 
 .row {
@@ -266,8 +310,11 @@ ul a:hover {
     margin-bottom: 15px;
 }
 .map {
-    min-height: 40%;
-    min-width: 40%;
+    width: 45%;
+    height: 30%;
+    min-height: 200px;
+    min-width: 340px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
