@@ -310,8 +310,7 @@ ul a:hover {
     margin-bottom: 15px;
 }
 .map {
-    width: 45%;
-    height: 30%;
+    
     min-height: 200px;
     min-width: 340px;
 
@@ -321,6 +320,12 @@ ul a:hover {
     text-align: center;
     margin-bottom: 15px;
     padding: 0px 10px;
+}
+@media screen and (min-width: 1200px) {
+.map {
+    width: 65%;
+    height: 30%;
+}
 }
 
 .tex sub, .latex sub, .latex sup {
