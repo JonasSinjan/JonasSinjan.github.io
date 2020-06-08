@@ -90,7 +90,7 @@ ul a:hover {
     margin-left: auto;
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
-    background-color: black;
+    background-color: #231e1f;
     opacity: 1;
     color: white;
     overflow: auto;
@@ -107,7 +107,7 @@ ul a:hover {
     margin-left: auto;
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
-    background-color: black;
+    background-color: #231e1f;
     opacity: 1;
     color: white;
     overflow: auto;
@@ -124,7 +124,7 @@ ul a:hover {
     margin-left: auto;
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
-    background-color: black;
+    background-color: #231e1f;
     opacity: 1;
     color: white;
     overflow: auto;
@@ -139,7 +139,7 @@ ul a:hover {
     margin-top: 25%;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: #231e1f;
     opacity: 1;
     color: white;
     overflow: auto;
@@ -161,10 +161,12 @@ ul a:hover {
     padding: 15px;
     color: white;
 }
+/*
 .text3{
     width: 30%;
     min-width: 350px;
     /*height: 350px;*/
+    /*
     border-radius: 10px;
     border-color: #0274ff;
     border-width: 10px;
@@ -174,10 +176,23 @@ ul a:hover {
     margin-left: auto;
     margin-right: auto;
     /*transform: translate(-50%, -35%);*/
-    background-color: black;
+    /*background-color: black;
     opacity: 1;
     color: white;
     overflow: auto;
+
+}
+*/
+.text3{
+    opacity: 1;
+    color: white;
+    overflow: auto;
+    width: 30%;
+    min-width: 350px;
+    margin-top: 50%;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 @media screen and (min-width: 1200px) {
@@ -251,8 +266,8 @@ ul a:hover {
     text-align: center;
     margin-top: 0px;
     color: white;
-    font-size: 20px;
-    padding: 13px 16px;
+    font-size: 25px;
+    padding: 1px 16px;
 
 }
 
