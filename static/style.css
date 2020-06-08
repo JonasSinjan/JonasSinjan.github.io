@@ -424,9 +424,9 @@ padding: 10px;
 text-align: center;
 }
 /* tr:hover {background-color: #1E90FF;} */
-td:hover {background-color: #ffb400;}
+td:hover {background-color: #ffb703;}
 th {
-    background-color: #ffb400;
+    background-color: #ffb703;
     color: white;
 }
 /* #f5f5f548 table hover color */
