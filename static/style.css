@@ -423,7 +423,7 @@ th, td {
 padding: 10px;
 text-align: center;
 }
-tr:hover {background-color: #1E90FF;}
+/* tr:hover {background-color: #1E90FF;} */
 td:hover {background-color: #1E90FF;}
 th {
     background-color: #1E90FF;
