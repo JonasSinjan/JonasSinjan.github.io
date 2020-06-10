@@ -84,5 +84,16 @@
           Background image: <a href="https://www.pinterest.co.uk/pin/549791067003910849/?lp=true" style="color:white"><i class="fa fa-camera"></i></a> <br/>
         </div>
     </div>
+    <script>
+        let navbar = document.querySelector(".nav");
+        let jonasButton = document.querySelector(".nav:first-child");
+        jonasButton.addEventListener("click",function(e){
+          if(window.getComputedStyle(navbar).flexDirection === "column"){
+            let otherElems = document.querySelectorAll("nav > *:not(:first-child)");
+            otherElems.forEach((e) => e.style.display = (e.style.display != "none")? "none":"inline");
+          }
+        });
+  
+      </script>
 </body>
 </html>
