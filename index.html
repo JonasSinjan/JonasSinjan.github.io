@@ -8,18 +8,17 @@
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
 <body>
-    <ul class = "nav">
-         <li><div class = first-text3>Jonas Sinjan</div></li>
-         <li><a href="index.html">Home</a></li>
-         <li><a href="about.html">About Me</a></li>
-         <li><a href="courses.html">Courses</a></li>
-         <li><a href="experience.html">Skills & Experience</a></li>
-         <li><a href="https://www.linkedin.com/in/jonas-sinjan" style="color:white"><i class="fab fa-linkedin"></i></a></li>
-         <li><a href="https://github.com/JonasSinjan" style="color:white"><i class="fab fa-github"></i></a></li>
-    </ul>
-    <div class="spacer">
-    &nbsp;
-    </div>
+    <nav class="nav">
+         <div class = "first-text3">Jonas Sinjan</div>
+         <a href="index.html">Home</a>
+         <a href="about.html">About Me</a>
+         <a href="courses.html">Courses</a>
+         <a href="experience.html">Skills & Experience</a>
+         <span>
+         <a href="https://www.linkedin.com/in/jonas-sinjan" style="color:white"><i class="fab fa-linkedin"></i></a>
+         <a href="https://github.com/JonasSinjan" style="color:white"><i class="fab fa-github"></i></a>
+         </span>
+    </nav>
     <div class = "text3">
       <h1> Welcome to my Homepage! </h1>
             <div class="first-text4">
@@ -34,5 +33,16 @@
             <p> Background image: <a href="https://www.pinterest.co.uk/pin/549791067003910849/?lp=true" style="color:white"><i class="fa fa-camera"></i></a></p>
       </div>
     </div>
+    <script>
+      let navbar = document.querySelector(".nav");
+      let jonasButton = document.querySelector(".nav:first-child");
+      jonasButton.addEventListener("click",function(e){
+        if(window.getComputedStyle(navbar).flexDirection === "column"){
+          let otherElems = document.querySelectorAll("nav > *:not(:first-child)");
+          otherElems.forEach((e) => e.style.display = (e.style.display != "none")? "none":"inline");
+        }
+      });
+
+    </script>
 </body>
 </html>
