@@ -127,7 +127,7 @@ ul a:hover {
 }
 
 .text2{
-    width: 40%;
+    width: 60%;
     min-width: 370px;
     /*height: 350px;*/
     border-radius: 10px;
@@ -346,7 +346,7 @@ height: 30%;
 
 .bio-text2 {
     font-size: 18px;
-    float: left;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
