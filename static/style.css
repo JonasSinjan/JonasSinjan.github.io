@@ -237,6 +237,17 @@ height: 30%;
     padding: 15px;
     color: white;
 }
+.portrait {
+    text-align: center;
+}
+#mypic {
+    width: 25%;
+    height: auto;
+    margin-right : auto;
+    margin-left : auto;
+    min-width : 200px;
+    max-width : 600px;
+  }
 /*
 .text3{
     width: 30%;
@@ -265,8 +276,8 @@ height: 30%;
     /* overflow: auto; */
     width: 30%;
     min-width: 350px;
-    margin-top: 20vh;
-    margin-bottom: 15%;
+    margin-top: 15vh;
+    /* margin-bottom: 15%; */
     margin-left: auto;
     margin-right: auto;
 
