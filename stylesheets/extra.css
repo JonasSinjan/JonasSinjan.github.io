@@ -1,6 +1,6 @@
 img[alt=road] { width: 800px; }
 img[alt=profile] { width: 500px; }
-.coursetext{
+.header{
   /* min-width: 370px;
   border-radius: 10px;
   border-color: #ffb703;
@@ -23,7 +23,7 @@ img[alt=profile] { width: 500px; }
   /* border-bottom: 5px solid white; */
   margin-top: 10px;
   padding: 15px;
-  color: gray;
+  /* color: gray; */
 }
 
 .courses {
@@ -32,7 +32,7 @@ img[alt=profile] { width: 500px; }
   margin-left: 20px;
   margin-right: 20px;
   padding: 5px;
-  color: gray;
+  /* color: gray; */
   -webkit-column-rule: 4px double #ddd; /* Chrome, Safari, Opera */
   -moz-column-rule: 4px double #ddd; /* Firefox */
   column-rule: 4px double #ddd;
@@ -52,5 +52,5 @@ text-align: center;
 td:hover {background-color: #ff6c44;}
 th {
   background-color: #ff6c44;
-  color: white;
+  /* color: white; */
 }
