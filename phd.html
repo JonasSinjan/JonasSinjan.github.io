@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1, maximum-scale=1.0, user-scalable=no">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+<body>
+    <nav class="nav">
+      <div class = "first-text3">Jonas Sinjan</div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="phd.html">PhD</a>
+      <a href="courses.html">MSci</a>
+      <a href="experience.html">Skills & Experience</a>
+      <span>
+      <a href="https://twitter.com/jonas_sinjan" style="color:white"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/jonas-sinjan" style="color:white"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/JonasSinjan" style="color:white"><i class="fab fa-github"></i></a>
+      <a href="https://gitlab.gwdg.de/sinjan" style="color:white"><i class="fab fa-gitlab"></i></a>
+      </span>
+    </nav>
+    <div class="spacer">
+      &nbsp;
+    </div>
+    <div class = "text2">
+        <h1> Research Interests </h1>
+            <div class = "bio-text2">
+              <p>All things <a href="https://twitter.com/ESASolarOrbiter", style="color:#0274ff">@ESASolarOrbiter</a> (SO) related!</p>
+              <p>Lead developer and maintainer of the SO/PHI-HRT On-ground Data Reduction and Calibration Pipeline (2021 - 2022) </p>
+              <p>Working on calibrating SO/PHI-HRT and HMI Magnetograms</p>
+              <p></p>
+                <!-- <img class="map" src="static/map.PNG"> -->
+            </div>
+
+        <h1> Stuff Outside my Research </h1>
+            <div class = "bio-text2">
+              <p>Elected External Student Representative at <a href="https://twitter.com/mpsgoettingen", style="color:#0274ff">@MPSGoettingen</a></p>
+              <p>CPT (Chem, Phys, Tech) Representative in the Steering Group of the <a href="https://twitter.com/uniGoettingen", style="color:#0274ff">@maxplanckphdnet</a> (like a PhD union of sorts)</p>
+              <p>Graduate Teaching Assistant  <a href="https://twitter.com/uniGoettingen", style="color:#0274ff">@uniGoettingen</a>:
+              <p style="text-indent: 25px;">   - Classical Field Theory (Winter 2020/2021) </p>
+              <p style="text-indent: 25px;">   - Introduction to Astrophysics (Winter 2021/2022)</p>
+              <p style="text-indent: 25px;">   - Advanced Physics Lab (Winter 2021/2022)</p>
+              </p>
+                <!-- <img class="map" src="static/map.PNG"> -->
+            </div>
+
+        <h1>Publications</h1>
+            <div class = "bio-text2">
+              <p><i><b>Magnetic fields inferred by Solar Orbiter: A comparison between SO/PHI-HRT and SDO/HMI</b></i></p>
+              <p><u><b>J. Sinjan</b></u>, D. Calchetti, J. Hirzberger, F. Kahil, G. Valori, S.K. Solanki et al.</p>
+              <p><i>Astronomy & Astrophysics</i>. Vol. 673, A31 (Published online 27 April 2023)</p>
+              <p>DOI: <a href="https://doi.org/10.1051/0004-6361/202245830", style="color:#0274ff">https://doi.org/10.1051/0004-6361/202245830</a></p>
+              <p></p>
+            </div>
+            <div class = "bio-text2">
+              <p><i><b>The on-ground data reduction and calibration pipeline for SO/PHI-HRT</b></i></p>
+              <p><u><b>J. Sinjan</b></u>, D. Calchetti, J. Hirzberger, D.O. Suarez, K. Albert, N. Albelo Jorge et al.</p>
+              <p><i>SPIE Software and Cyberinfrastructure for Astronomy VII</i>. Vol. 12189, 612-628 (Published online 29 August 2022)</p>
+              <p>DOI: <a href="https://doi.org/10.1117/12.2629323", style="color:#0274ff">https://doi.org/10.1117/12.2629323</a></p>
+              <p></p>
+            </div>
+            <div class = "bio-text2">
+              <p><i><b>The magnetic drivers of campfires seen by the Polarimetric and Helioseismic Imager (PHI) on Solar Orbiter</b></i></p>
+              <p>F. Kahil, J. Hirzberger, S. K. Solanki, L. P. Chitta, H. Peter, F. Auchère, <u><b>J. Sinjan</b></u> et al.</p>
+              <p><i>Astronomy & Astrophysics</i>. Vol. 660, A143 (Published online 26 April 2022)</p>
+              <p>DOI: <a href="https://doi.org/10.1051/0004-6361/202142873", style="color:#0274ff">https://doi.org/10.1051/0004-6361/202142873</a></p>
+              <p></p>
+            </div>
+    </div>
+    <script>
+      let navbar = document.querySelector(".nav");
+      let jonasButton = document.querySelector(".nav:first-child");
+      jonasButton.addEventListener("click",function(e){
+        if(window.getComputedStyle(navbar).flexDirection === "column"){
+          let otherElems = document.querySelectorAll("nav > *:not(:first-child)");
+          otherElems.forEach((e) => e.style.display = (e.style.display != "none")? "none":"inline");
+        }
+      });
+
+    </script>
+</body>
+</html>
