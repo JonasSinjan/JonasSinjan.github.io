@@ -61,12 +61,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://jonassinjan.com/projects/hrt_and_hmi_files/</loc>
+         <lastmod>2024-11-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jonassinjan.com/projects/soar_download/</loc>
          <lastmod>2024-11-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jonassinjan.com/projects/soda/</loc>
+         <lastmod>2024-11-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jonassinjan.com/projects/sophihrt_wcs_corr/</loc>
          <lastmod>2024-11-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
